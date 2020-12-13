@@ -1,0 +1,57 @@
+
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+.navbar-brand{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem
+
+}
+
+.top-nav-collapse {
+  background-color: #394867 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #394867 !important;
+  }
+}
+.nav-item{
+  padding-left: 1rem;
+}
+h6 {
+  line-height: 1.7;
+}
+.nn{
+  padding-top: 100px;
+}
+.nm{
+  padding: 50px 20px 50px 100px;
+}
